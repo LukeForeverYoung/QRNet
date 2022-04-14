@@ -30,7 +30,7 @@ We follow the data preparation of TransVG, which can be found in [GETTING_STARTE
 ```
 mkdir checkpoints
 ```
-You can also set the ```--bert_model``` to ```bert-base-uncased``` to download bert checkpoints online or put ```bert-base-uncased``` into ```checkpoints/``` manually.
+You can set the ```--bert_model``` to ```bert-base-uncased``` to download bert checkpoints online or put ```bert-base-uncased``` into ```checkpoints/``` manually.
 
 To train our model on refcoco/refcoco+/refcocog datasets, you need checkpoints trained on MSCOCO that the overlapping images of test set are excluded. We provide pretrained checkpoints on [Google Drive](https://drive.google.com/drive/folders/1GTi32iEfsJdYNtcHCUQIbhMdL5YFByVF?usp=sharing). For referit/flickr datasets, you can simply use the pretrained checkpoint from [Swin-Transformer](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection).
 
