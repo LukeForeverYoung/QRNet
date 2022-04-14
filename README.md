@@ -42,7 +42,7 @@ To train our model on refcoco/refcoco+/refcocog datasets, you need checkpoints t
 
 We present bash scripts for training  on referit.
 
-For single-gpu training
+For single-gpu training (not validated)
 ```
 bash train_referit_single_gpu.sh
 ```
@@ -56,7 +56,7 @@ It's similar to train the model on the other datasets. Differents is that on Ref
 
 ### 2.Evaluation
 
-For single-gpu evaluation (not validated)
+For single-gpu evaluation
 ```
 bash eval_referit_single_gpu.sh
 ```
