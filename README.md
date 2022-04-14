@@ -2,8 +2,6 @@
 [Shifting More Attention to Visual Backbone: Query-modulated Refinement Networks for End-to-End Visual Grounding](https://arxiv.org/abs/2203.15442), CVPR, 2022.
 
 by Jiabo Ye, Junfeng Tian, Ming Yan, Xiaoshan Yang, Xuwu Wang, Ji Zhang, Liang He, Xin Lin
-
-This repository is partially based on [TransVG](https://github.com/djiajunustc/TransVG).
 ## Installation
 
 ### 1.Prepare the environment
@@ -65,3 +63,14 @@ For multi-gpu evaluation
 ```
 bash eval_referit_multi_gpu.sh
 ```
+## Citation
+```
+@article{ye2022shifting,
+  title={Shifting More Attention to Visual Backbone: Query-modulated Refinement Networks for End-to-End Visual Grounding},
+  author={Ye, Jiabo and Tian, Junfeng and Yan, Ming and Yang, Xiaoshan and Wang, Xuwu and Zhang, Ji and He, Liang and Lin, Xin},
+  journal={arXiv preprint arXiv:2203.15442},
+  year={2022}
+}
+```
+## Acknowledge
+This codebase is partially based on [TransVG](https://github.com/djiajunustc/TransVG) and [Swin-Transformer](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection).
