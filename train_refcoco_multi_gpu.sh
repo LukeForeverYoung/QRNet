@@ -4,4 +4,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
  --output_dir ./outputs/$dataset \
  --dataset $dataset --max_query_len 20 \
  --aug_crop --aug_scale --aug_translate \
- --lr_drop 60 --swin_checkpoint unc/latest.pth
+ --lr_drop 60 --swin_checkpoint checkpoints/unc_latest.pth
