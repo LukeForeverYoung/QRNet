@@ -129,8 +129,6 @@ def evaluate(args, model: torch.nn.Module, data_loader: Iterable, device: torch.
     pred_box_list = []
     gt_box_list = []
     for _, batch in enumerate(tqdm(data_loader)):
-        if _>140:
-            break
         img_data, text_data, target = batch
         batch_size = img_data.tensors.size(0)
         # copy to GPU
