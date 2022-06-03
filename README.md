@@ -26,6 +26,7 @@ We recommmand to install mmdet from the source codes inside this repository (```
 ### 2.Dataset preparation
 We follow the data preparation of TransVG, which can be found in [GETTING_STARTED.md](https://github.com/djiajunustc/TransVG/blob/main/docs/GETTING_STARTED.md).
 
+The download links of ReferItGame are broken.  Thus we upload the data splits and images to [Google Drive](https://drive.google.com/drive/folders/1D4shieeoKly6FswpdjSpaOrxJQNKTyTv?usp=sharing).
 ### 3.Checkpoint preparation
 ```
 mkdir checkpoints
